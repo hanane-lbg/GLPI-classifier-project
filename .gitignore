@@ -1,0 +1,5 @@
+tf_env/
+__pycache__/
+**/__pycache__/
+model/
+.DS_Store

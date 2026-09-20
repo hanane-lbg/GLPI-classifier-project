@@ -51,11 +51,11 @@ ID2LABEL = {
 def load_model():
 
     tokenizer = CamembertTokenizerFast.from_pretrained(
-        MODEL_PATH
+        MODEL_PATH, subfolder="model"
     )
 
     model = AutoModelForSequenceClassification.from_pretrained(
-        MODEL_PATH
+        MODEL_PATH, subfolder="model"
     )
 
     model.eval()

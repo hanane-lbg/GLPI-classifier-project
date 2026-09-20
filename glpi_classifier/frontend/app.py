@@ -5,7 +5,7 @@ import torch
 import streamlit as st
 from transformers import (
     CamembertTokenizerFast,
-    CamembertForSequenceClassification
+    AutoModelForSequenceClassification
 )
 
 
@@ -54,7 +54,7 @@ def load_model():
         MODEL_PATH
     )
 
-    model = CamembertForSequenceClassification.from_pretrained(
+    model = AutoModelForSequenceClassification.from_pretrained(
         MODEL_PATH
     )
 

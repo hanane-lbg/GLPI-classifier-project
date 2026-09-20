@@ -20,7 +20,7 @@ sys.path.insert(
     str(PROJECT_ROOT)
 )
 
-MODEL_PATH = PROJECT_ROOT / "model"
+MODEL_PATH = "Hanane23/Odoo_glpi_classifier_model"
 
 
 # ============================================================
